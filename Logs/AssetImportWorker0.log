@@ -13057,3 +13057,859 @@ Start importing Assets/Save System/Resources/TestData using Guid(a5db62d0083dcdb
   ERROR: Build asset version error: assets/save system/resources/testdata in SourceAssetDB has modification time of '2021-05-13T15:24:24.4554962Z' while content on disk has modification time of '2021-05-13T15:24:24.5034065Z'
   Import took 0.003763 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 3.470100 ms (FindLiveObjects: 0.539000 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.780300 ms  DeleteObjects: 0.029500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.3 MB.
+System memory in use after: 35.4 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 2.885300 ms (FindLiveObjects: 0.559300 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.216000 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.115 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 5.470600 ms (FindLiveObjects: 0.781300 ms CreateObjectMapping: 0.145100 ms MarkObjects: 4.503100 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1259.223338 seconds.
+  path: Assets/Save System/Test/Prefabs
+  artifactKey: Guid(e7aa8269f59d95c4fba6b71e22fb2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs using Guid(e7aa8269f59d95c4fba6b71e22fb2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fb475231c117581924cfa469205d74') in 0.024492 seconds
+  Import took 0.029232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001801 seconds.
+  path: Assets/Save System/Test/Prefabs
+  artifactKey: Guid(e7aa8269f59d95c4fba6b71e22fb2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs using Guid(e7aa8269f59d95c4fba6b71e22fb2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fb475231c117581924cfa469205d74') in 0.005838 seconds
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.300933 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30e729c87076b39f712adef2c6a696c') in 0.074090 seconds
+  Import took 0.079161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.826980 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f6e42c853e943268b9adb968802a2') in 0.030505 seconds
+  Import took 0.036649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.727100 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901f2b8b386570fdd6eaba89403af048') in 0.009346 seconds
+  Import took 0.015216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382145 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773da36084167db90133d410617bc27d') in 0.007816 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.447503 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47bc3b0a2a36b2056bc2e1fc84f16e5') in 0.010329 seconds
+  Import took 0.016481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.372164 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2766cdea09c56da85ac05c678abe2bb2') in 0.008834 seconds
+  Import took 0.013518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.687090 seconds.
+  path: Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab
+  artifactKey: Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/SaveSystemTestPopup.prefab using Guid(69dbf25bbee566a4b90179b92afbbbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3449b99f59cc1298da303a468902af') in 0.008027 seconds
+  Import took 0.012482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 394.367775 seconds.
+  path: Assets/UI System
+  artifactKey: Guid(315a7274bc4f33644aa459b14e584787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System using Guid(315a7274bc4f33644aa459b14e584787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c24e0f055939d11d22d086a9249244') in 0.020012 seconds
+  Import took 0.024692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.915496 seconds.
+  path: Assets/UI System/Scripts
+  artifactKey: Guid(7a5e2f0a99e2a39418553af1a0c76a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Scripts using Guid(7a5e2f0a99e2a39418553af1a0c76a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e862668f4881cf43b14b41675284924') in 0.015533 seconds
+  Import took 0.020455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.944209 seconds.
+  path: Assets/UI System/Prefabs
+  artifactKey: Guid(2b21b985aee141e4186e1a23e4b68fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs using Guid(2b21b985aee141e4186e1a23e4b68fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959d63fcbcf1d66888f1fae04792a6dc') in 0.003472 seconds
+  Import took 0.008172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.019788 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs
+  artifactKey: Guid(0feef3fe39bff9f4ab661b9e1a6eda79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs using Guid(0feef3fe39bff9f4ab661b9e1a6eda79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6318c68ef2bed3b455413462f4009c69') in 0.017445 seconds
+  Import took 0.022829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.291147 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab
+  artifactKey: Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab using Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd6b942e280dc7c40ef0c19c4dc2d88') in 0.161412 seconds
+  Import took 0.166685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.183541 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cefdc884f6d3282e1f9b7c39ad5cc0c') in 0.079996 seconds
+  Import took 0.084809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1062.046088 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs/Header.prefab
+  artifactKey: Guid(6100d70789b4a5a4a8e5f4b573efdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs/Header.prefab using Guid(6100d70789b4a5a4a8e5f4b573efdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091d7130033d059607a9cfd0a54bbf7a') in 0.080899 seconds
+  Import took 0.088053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab
+  artifactKey: Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab using Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164bdf1c371fc1c0bdb48d68e7bce0a1') in 0.084986 seconds
+  Import took 0.089597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.568898 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs/Header - Template.prefab
+  artifactKey: Guid(6100d70789b4a5a4a8e5f4b573efdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs/Header - Template.prefab using Guid(6100d70789b4a5a4a8e5f4b573efdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8732dc185b370d86b02b87e47faeac49') in 0.071626 seconds
+  Import took 0.075578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab
+  artifactKey: Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab using Guid(df6d33766c1bb96468f0c62fd4673d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f477fb37b8b0ef382c97224178e066') in 0.076434 seconds
+  Import took 0.081065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.979846 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff92aa63fb187682a6ca6482538a4b') in 0.065828 seconds
+  Import took 0.070809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.747241 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abcdec45b18a75255f75327aad7fef') in 0.071869 seconds
+  Import took 0.076515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077915 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f686858dad814d6b8d7014817fac38') in 0.065554 seconds
+  Import took 0.070066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.382964 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b7fc51ae2ee4deae705d2448719909') in 0.060958 seconds
+  Import took 0.065746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f9d0ef9dadd96e2f1e3d149edde022') in 0.070712 seconds
+  Import took 0.076186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.991672 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7a0fa14ac25176166c53fa35bd52c2') in 0.073980 seconds
+  Import took 0.078868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa4005d148e7e3737e576bf257f13e') in 0.071735 seconds
+  Import took 0.075099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.517153 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c566fe1be392101956232deaaca57c') in 0.075404 seconds
+  Import took 0.081284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a16029ce6b0280e7559418bc0a083e') in 0.063265 seconds
+  Import took 0.067906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.708409 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521a093586a4517ca9e680ec88789e4') in 0.062084 seconds
+  Import took 0.066497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839c4d602bd9a3d968d669052db09bde') in 0.065862 seconds
+  Import took 0.072103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.009655 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2cb785c6b1386c0b2e5d931e520a1d') in 0.073789 seconds
+  Import took 0.079205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b7e18d27c1baadd31e16734bd412b6') in 0.071478 seconds
+  Import took 0.076051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.157475 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f163b4a0e46ca4513f764bf974c9bc2') in 0.071221 seconds
+  Import took 0.076143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b009bd8dbe9c645ba9f534c5831f48') in 0.072089 seconds
+  Import took 0.076082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.688206 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b24168ed163d9af9c745554eb324db') in 0.057629 seconds
+  Import took 0.063331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789b780fe610c9647bae6c388a60f92d') in 0.070661 seconds
+  Import took 0.075188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.789856 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28474abefc0e2211ea84a14f2dbe0bf') in 0.071947 seconds
+  Import took 0.076210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666cdd26335328d2fdfd91520e575eb9') in 0.067038 seconds
+  Import took 0.072452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28474abefc0e2211ea84a14f2dbe0bf') in 0.066133 seconds
+  Import took 0.070632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.499188 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a4d2980b642fe971db19fc19312ba2') in 0.061284 seconds
+  Import took 0.066619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ba337157d18d243fc210e230989f4') in 0.072517 seconds
+  Import took 0.076695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.545908 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed36e64689cb2d2f7a16bdcf7694c5b') in 0.061932 seconds
+  Import took 0.067392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526d7efe025992cbff4c47a363dd3e70') in 0.063834 seconds
+  Import took 0.069946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.389294 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91be54adae7f543ebc11bbfe1513025') in 0.071200 seconds
+  Import took 0.076878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9d67224abb9336e94ae2324773b051') in 0.060399 seconds
+  Import took 0.065227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.508595 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b7c94adc6854432ab26ddc9a90f51') in 0.064923 seconds
+  Import took 0.070271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001249 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c275308db8541cc1cbe524d74df38aa3') in 0.069209 seconds
+  Import took 0.074748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.614301 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43fe9624d1456e07acd38fd9c0b609') in 0.069737 seconds
+  Import took 0.075079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b043e5658ecad12834ec719482f2f1') in 0.056063 seconds
+  Import took 0.059958 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.123 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1728.
+Total: 3.911800 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.784800 ms  DeleteObjects: 0.581000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 55.858499 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ab09bef295cbb431bc0f8c40b2279') in 0.154287 seconds
+  Import took 0.159157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6212b60f03c824031d9184157a33206a') in 0.102213 seconds
+  Import took 0.106194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.082639 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0309a9c0124d64e67edd84e058890192') in 0.061535 seconds
+  Import took 0.066505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b770306da41cc8a9f8c39ab46c0b7f5') in 0.061008 seconds
+  Import took 0.065455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.329095 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0e6bff8829793f1dd8432d90f04c65') in 0.064507 seconds
+  Import took 0.069137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298bf5e0350eee976629646f4f3213d') in 0.069939 seconds
+  Import took 0.074030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.910652 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e116799774a3dbb454f024a10d52078') in 0.063506 seconds
+  Import took 0.069341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f6652d567cd3c39f6e0663b5ac81f1') in 0.061443 seconds
+  Import took 0.066368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.158399 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fa0034cee51fd84c7634ffea5169a7') in 0.067625 seconds
+  Import took 0.073044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e092e4f1ae9d656fe12f0404da4222e2') in 0.071152 seconds
+  Import took 0.075618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.638966 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4487c2d2aceb73112b91ec0ae1d952') in 0.069496 seconds
+  Import took 0.074174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ceeeb20d6e82e1558d44ec8e347887') in 0.059885 seconds
+  Import took 0.065326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.274563 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944ee4126c5a2b0e12db8508fcee13cc') in 0.101167 seconds
+  Import took 0.109718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001046 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0864099875fecbed70df01f7209d4954') in 0.089028 seconds
+  Import took 0.094493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.046223 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5772b15f5b911007cd6013227e69b9') in 0.093396 seconds
+  Import took 0.099821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55afe8d084b7dcdf94acf16be958b00') in 0.093967 seconds
+  Import took 0.099505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.022577 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0f0661805193691f2dd6f9f545c655') in 0.101651 seconds
+  Import took 0.109491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b005440bff71f75d738df1f0e3b299e') in 0.094413 seconds
+  Import took 0.100188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.553391 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd2773c1e6c986999042c0aba20385a') in 0.106638 seconds
+  Import took 0.117030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc692eea65d84f8ef261f2af550bfbd') in 0.095008 seconds
+  Import took 0.099874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.000786 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1cecca26d50fadddab3911051349ce') in 0.078675 seconds
+  Import took 0.086080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4eb03fcdaaf22b772469eec96e63bab') in 0.076292 seconds
+  Import took 0.082410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.631421 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becc8553a5ea7bb3d313b76c0b734b7b') in 0.086492 seconds
+  Import took 0.094827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d5703f8835766fcb1d6fbd9aa55c75') in 0.096011 seconds
+  Import took 0.102874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.330466 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4339a79e9dc2a135f4088e1d3390633f') in 0.067826 seconds
+  Import took 0.076718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a0fcccbde70fcbbd8f6031c32d4d5b') in 0.092259 seconds
+  Import took 0.098398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.059335 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7570cd0461c37bf0843c1ab72c29c3e') in 0.102039 seconds
+  Import took 0.110209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4ec0ddcb6a979b2ccad61af63e5cb2') in 0.102132 seconds
+  Import took 0.109694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.112057 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c802210ec7e5860da246e2ba4043e1') in 0.104154 seconds
+  Import took 0.112175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e847c3a2e39dd46095c6fddb4418b4') in 0.091263 seconds
+  Import took 0.099116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.759451 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7171ef3b34e63382aff08bdd509ec869') in 0.103223 seconds
+  Import took 0.111170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075d4302905ee05a48155d649bb4aa3a') in 0.108785 seconds
+  Import took 0.116667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.582615 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f800878181be3fd69f501c15d32535') in 0.102738 seconds
+  Import took 0.112977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae3719dab7a5c2b43d776526c7cd8a9') in 0.089420 seconds
+  Import took 0.098629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.145548 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84fd64ae5ccf5ab50d809e9145f7d61') in 0.101776 seconds
+  Import took 0.110049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033dead1f3ba2084bb688922ae29c26a') in 0.098347 seconds
+  Import took 0.106248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.389284 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed4b6ce722aba5250ce768c5909e62f') in 0.110598 seconds
+  Import took 0.118923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51eae1dff549c965487c5242e9cf4b4') in 0.097708 seconds
+  Import took 0.105178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.076262 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ccf54f0d27e1b19795881b4b49b9f') in 0.114574 seconds
+  Import took 0.123130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30c2d9074de1959ee851ef7114d7fd6') in 0.097990 seconds
+  Import took 0.105936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.102569 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5996411a30cb7add3da78aa37ad689') in 0.103268 seconds
+  Import took 0.111561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8f3023112a8e9ccab4f6f56740ea41') in 0.093184 seconds
+  Import took 0.101564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.027994 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e4226373fc408f27545d0347189d36') in 0.101280 seconds
+  Import took 0.110217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa987cabbe49a417336bd34395913108') in 0.099378 seconds
+  Import took 0.110550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.379391 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99809c1c6fd3a31c1cb939e098ea7bff') in 0.101856 seconds
+  Import took 0.109090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f9de15ae971ea394c2119b82bcfe34') in 0.090990 seconds
+  Import took 0.098611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.542620 seconds.
+  path: Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab
+  artifactKey: Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab using Guid(51d7360463d00cb4abddb3d408b03ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb9a3fba394ebacb9973cf70b2002e4') in 0.093842 seconds
+  Import took 0.100322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Save System/Test/Prefabs/View - TestData.prefab
+  artifactKey: Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Save System/Test/Prefabs/View - TestData.prefab using Guid(34f850b4e7d4ca14b9bc4575e6788972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78b022e6f6f21bd72db4cde61964da2') in 0.093564 seconds
+  Import took 0.100043 seconds .
+

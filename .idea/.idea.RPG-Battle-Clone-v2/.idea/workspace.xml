@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87a04c0e-0f57-4d52-a0f7-032541c082dc" name="Default Changelist" comment="" />
+    <list default="true" id="87a04c0e-0f57-4d52-a0f7-032541c082dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620851374305</updated>
-      <workItem from="1620851382007" duration="7527000" />
+      <workItem from="1620851382007" duration="8153000" />
     </task>
     <servers />
   </component>

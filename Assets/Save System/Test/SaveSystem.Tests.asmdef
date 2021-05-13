@@ -1,0 +1,16 @@
+{
+    "name": "SaveSystem.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:33ef2c91e45a25548b83d79a671bf106"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

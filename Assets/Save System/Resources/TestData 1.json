@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "name": "Test 1",
+    "testClass": {
+        "exampleData": "config 1"
+    }
+}

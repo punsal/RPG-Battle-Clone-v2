@@ -3,6 +3,7 @@
     public interface ISavable
     {
         void Save();
-        bool Load(out object result);
+        void Load();
+        void ResetDefaults();
     }
 }

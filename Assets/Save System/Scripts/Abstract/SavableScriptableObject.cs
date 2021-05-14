@@ -9,6 +9,9 @@ namespace Save_System.Scripts.Abstract
         public abstract void Save();
 
         [ContextMenu("Save System/Load")]
-        public abstract bool Load(out object result);
+        public abstract void Load();
+
+        [ContextMenu("Save System/Reset Defaults")]
+        public abstract void ResetDefaults();
     }
 }

@@ -44,7 +44,7 @@ namespace Save_System.Editor.Scripts
         {
             var message = string.Empty;
             message += "Saving..\n";
-            var assetGuids = AssetDatabase.FindAssets("t:" + nameof(ScriptableObject), new []{ "Assets"});
+            var assetGuids = AssetDatabase.FindAssets("t:" + nameof(SavableScriptableObject), new []{ "Assets"});
             foreach (var assetGuid in assetGuids)
             {
                 var assetPath = AssetDatabase.GUIDToAssetPath(assetGuid);

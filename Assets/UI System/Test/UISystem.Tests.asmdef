@@ -1,9 +1,8 @@
 {
-    "name": "UISystem.Scripts",
+    "name": "UISystem_Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:2461603c701046aba703f5721dc19108"
+        "GUID:70830fe30aacfbe419f089f0b3293d6b"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

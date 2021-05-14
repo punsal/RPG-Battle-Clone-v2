@@ -2,7 +2,7 @@
 
 namespace UI_System.Test.Scripts.Menus
 {
-    public class TestMenu : MenuBase
+    public class TestMenuA : MenuBase
     {
         protected override void OnAppeared()
         {

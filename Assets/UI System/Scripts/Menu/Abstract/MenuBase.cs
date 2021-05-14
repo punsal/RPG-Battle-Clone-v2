@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -22,24 +23,34 @@ namespace UI_System.Scripts.Menu.Abstract
             ? _canvasGroup = GetComponent<CanvasGroup>() 
             : _canvasGroup;
 
+        private Coroutine actionCoroutine;
+
         public void Show()
         {
-            Task.Run(Appear);
+            if (actionCoroutine != null)
+            {
+                StopCoroutine(actionCoroutine);
+            }
+            actionCoroutine = StartCoroutine(Appear());
         }
 
         public void Hide()
         {
-            Task.Run(Disappear);
+            if (actionCoroutine != null)
+            {
+                StopCoroutine(actionCoroutine);
+            }
+            actionCoroutine = StartCoroutine(Disappear());
         }
         
-        private async Task Appear()
+        private IEnumerator Appear()
         {
             var timer = 0f;
             while (timer < settings.AppearDuration)
             {
                 canvasGroup.alpha = timer / settings.AppearDuration;
-                await Task.Delay(TimeSpan.FromMilliseconds(20));
-                timer += (float) TimeSpan.FromMilliseconds(20).TotalSeconds;
+                yield return null;
+                timer += Time.deltaTime;
             }
 
             canvasGroup.alpha = 1f;
@@ -47,14 +58,14 @@ namespace UI_System.Scripts.Menu.Abstract
             OnAppeared();
         }
 
-        private async Task Disappear()
+        private IEnumerator Disappear()
         {
             var timer = 0f;
             while (timer < settings.AppearDuration)
             {
                 canvasGroup.alpha = 1 - timer / settings.AppearDuration;
-                await Task.Delay(TimeSpan.FromMilliseconds(20));
-                timer += (float) TimeSpan.FromMilliseconds(20).TotalSeconds;
+                yield return null;
+                timer += Time.deltaTime;
             }
 
             canvasGroup.alpha = 0f;

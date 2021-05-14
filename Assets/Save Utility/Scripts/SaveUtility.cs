@@ -5,12 +5,12 @@ using UnityEngine;
 
 namespace Save_System.Scripts
 {
-    public static class SaveSystem
+    public static class SaveUtility
     {
         private const string SavableScriptableObjectKey = "SaveSystem/SavableScriptableObjects/";
         private static readonly string ResourcesPath = Application.dataPath + "/Save System/Resources";
         
-        public static void Save(this SavableScriptableObject scriptableObject)
+        public static void Save(SavableScriptableObject scriptableObject)
         {
             // Save data to PlayerPrefs in PlayMode.
             var data = JsonUtility.ToJson(scriptableObject, true);
@@ -29,7 +29,7 @@ namespace Save_System.Scripts
 #endif
         }
 
-        public static bool Load<T>(this ScriptableObject scriptableObject, out object result) where T : ScriptableObject
+        public static bool Load<T>(ScriptableObject scriptableObject, out object result) where T : ScriptableObject
         {
             // if data exists in PlayerPrefs
             var existingData = PlayerPrefs.GetString(SavableScriptableObjectKey + scriptableObject.name, string.Empty);

@@ -26,12 +26,12 @@ namespace Save_System.Test.Scripts
         
         public override void Save()
         {
-            SaveSystem.Save(this);
+            SaveUtility.Save(this);
         }
 
         public override void Load()
         {
-            if (SaveSystem.Load<TestData>(this, out var result))
+            if (SaveUtility.Load<TestData>(this, out var result))
             {
                 var testDataResult = (TestData) result;
                 id = testDataResult.id;

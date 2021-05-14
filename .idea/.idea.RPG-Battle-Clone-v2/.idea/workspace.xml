@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a04c0e-0f57-4d52-a0f7-032541c082dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 1.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 2.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Resources/TestData.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestDataView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header/HeaderView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header/HeaderView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.Scripts.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.Scripts.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG-Battle-Clone-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG-Battle-Clone-v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Resources/.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract/SavableScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract/SavableScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Interface/ISavable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Scripts/Interface/ISavable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/View - TestData.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/View - TestData.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/SaveSystem.Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/SaveSystem.Tests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/Header - Template.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/Header - Template.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +13,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Save System/Editor/Build/SaveSystemPreProcess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestDataView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/88/a70b25c3/String.cs" root0="SKIP_HIGHLIGHTING" />
@@ -129,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620851374305</updated>
-      <workItem from="1620851382007" duration="19725000" />
+      <workItem from="1620851382007" duration="20237000" />
     </task>
     <servers />
   </component>

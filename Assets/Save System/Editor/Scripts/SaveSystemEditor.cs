@@ -1,4 +1,3 @@
-using Save_System.Scripts.Abstract;
 using UnityEditor;
 using UnityEngine;
 
@@ -35,25 +34,6 @@ namespace Save_System.Editor.Scripts
             GUILayout.TextArea(_message, EditorStyles.label);
             
             GUILayout.EndVertical();
-        }
-    }
-
-    public static class SaveSystemEditorUtility
-    {
-        public static string SaveSavableScriptableObjects()
-        {
-            var message = string.Empty;
-            message += "Saving..\n";
-            var assetGuids = AssetDatabase.FindAssets("t:" + nameof(SavableScriptableObject), new []{ "Assets"});
-            foreach (var assetGuid in assetGuids)
-            {
-                var assetPath = AssetDatabase.GUIDToAssetPath(assetGuid);
-                message += assetPath + "\n";
-                var savableScriptableObject = AssetDatabase.LoadAssetAtPath<SavableScriptableObject>(assetPath);
-                savableScriptableObject.Save();
-            }
-
-            return message;
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+    "name": "UISystem_Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:70830fe30aacfbe419f089f0b3293d6b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

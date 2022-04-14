@@ -1,7 +1,7 @@
-﻿using Save_System.Scripts.Abstract;
+﻿using Save_Utility.Scripts.Abstract;
 using UnityEditor;
 
-namespace Save_System.Editor.Scripts
+namespace Save_Utility.Editor.Scripts
 {
     public static class SaveSystemEditorUtility
     {

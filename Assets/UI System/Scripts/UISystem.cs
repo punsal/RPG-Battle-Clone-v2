@@ -1,10 +1,22 @@
-﻿using System.Collections.Generic;
-using UI_System.Scripts.Menu;
+﻿using Framework.Abstract;
 
 namespace UI_System.Scripts
 {
-    public class UISystem
+    public class UISystem : MonoSystem
     {
-        private List<MenuManager> menuManagers;
+        protected override void OnInitialized()
+        {
+            
+        }
+
+        protected override void OnManagersInitialized()
+        {
+            
+        }
+
+        protected override void OnTerminated()
+        {
+            
+        }
     }
 }

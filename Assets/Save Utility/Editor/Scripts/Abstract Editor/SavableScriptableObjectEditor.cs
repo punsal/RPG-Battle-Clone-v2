@@ -1,10 +1,10 @@
-﻿using Save_System.Scripts.Abstract;
+﻿using Save_Utility.Scripts.Abstract;
 using UnityEditor;
 using UnityEngine;
 
-namespace Save_System.Editor.Scripts.Abstract_Editor
+namespace Save_Utility.Editor.Scripts.Abstract_Editor
 {
-    [CustomEditor(typeof(SavableScriptableObject), true)]
+    [CustomEditor(typeof(SavableScriptableObject), true), CanEditMultipleObjects]
     public class SavableScriptableObjectEditor : UnityEditor.Editor
     {
         private SavableScriptableObject instance;

@@ -1,10 +1,10 @@
 ﻿using System;
-using Save_System.Scripts;
-using Save_System.Scripts.Abstract;
+using Save_Utility.Scripts;
+using Save_Utility.Scripts.Abstract;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Save_System.Test.Scripts
+namespace Save_Utility.Test.Scripts
 {
     [CreateAssetMenu(fileName = "TestData", menuName = "Save System/Tests/Create Test Data", order = 0)]
     public class TestData : SavableScriptableObject
@@ -31,7 +31,7 @@ namespace Save_System.Test.Scripts
 
         public override void Load()
         {
-            if (SaveUtility.Load<TestData>(this, out var result))
+            if (SaveUtility.Load(this, out var result))
             {
                 var testDataResult = (TestData) result;
                 id = testDataResult.id;

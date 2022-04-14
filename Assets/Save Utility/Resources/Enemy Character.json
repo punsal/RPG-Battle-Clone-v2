@@ -1,0 +1,16 @@
+{
+    "defaultLevel": {
+        "experience": 0,
+        "level": 0
+    },
+    "defaultHealth": 191.80181884765626,
+    "defaultAttackPower": 23.46426010131836,
+    "characterName": "Enemy Character",
+    "startingHealth": 191.80181884765626,
+    "currentHealth": -1.83502197265625,
+    "currentAttackPower": 23.46426010131836,
+    "currentLevel": {
+        "experience": 0,
+        "level": 0
+    }
+}

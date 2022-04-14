@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Save_System.Editor.Scripts
+namespace Save_Utility.Editor.Scripts
 {
     public class SaveSystemEditor : EditorWindow
     {

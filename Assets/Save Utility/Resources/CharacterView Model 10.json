@@ -1,0 +1,15 @@
+{
+    "characterModel": {
+        "instanceID": 15240
+    },
+    "characterAttributePopup": {
+        "instanceID": 15242
+    },
+    "characterSprite": {
+        "instanceID": 15262
+    },
+    "viewStatues": {
+        "isAvailable": false,
+        "isSelected": false
+    }
+}

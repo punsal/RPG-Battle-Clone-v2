@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Save Utility/Test/Scenes/SaveSystemTestScene.unity
-    guid: bc15dfcedcae41b43b5902345d4df6b6
+    path: Assets/Game/Common/Scenes/Main Scene.unity
+    guid: 2705ece557e41b74b9f42e04a562cddf
+  - enabled: 1
+    path: Assets/Game/Hero Selection/Scenes/Hero Selection Scene.unity
+    guid: f206f355f55376d43ab5384be1495cf2
+  - enabled: 1
+    path: Assets/Game/Battle/Scenes/Battle Scene.unity
+    guid: 981144e234d06204287ce669cd5418e6
   m_configObjects: {}

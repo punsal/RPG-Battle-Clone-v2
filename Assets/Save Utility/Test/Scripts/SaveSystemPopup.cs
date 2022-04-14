@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UI_System.Scripts.Popup.Abstract;
 using UnityEngine;
 
-namespace Save_System.Test.Scripts
+namespace Save_Utility.Test.Scripts
 {
     public class SaveSystemPopup : PopupBase
     {

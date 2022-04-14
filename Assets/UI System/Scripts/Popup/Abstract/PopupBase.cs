@@ -1,3 +1,5 @@
+using Framework.ServiceLocator.Signals;
+using UI_System.Scripts.Popup.Signals;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -42,8 +44,9 @@ namespace UI_System.Scripts.Popup.Abstract
             OnTerminated();
         }
 
-        private void Close()
+        public void Close()
         {
+            SignalServices.GetEvent<OnPopupClosedSignal>().RaiseOnPopupClosed(this);
             Destroy(gameObject);
         }
 

@@ -1,106 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="87a04c0e-0f57-4d52-a0f7-032541c082dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RPG-Battle-Clone-v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Editor/Framework.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Editor/Framework.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Editor/FrameworkEditorMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Editor/FrameworkEditorMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Resources/FrameworkSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Resources/FrameworkSettings.asset.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/InitializableSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/InitializableSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/MonoManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/MonoManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/MonoSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/MonoSystem.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Framework.Scripts.asmdef" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Framework.Scripts.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Handler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Handler/FrameworkHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Handler/FrameworkHandler.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Interface.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Interface/IInitializable.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Interface/IInitializable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save Utility.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Settings/MenuManagerSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Settings/MenuManagerSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Test/Data/Menu Test Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Test/Data/Menu Test Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuB.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuB.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPG-Battle-Clone-v2.sln.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Interface/ISystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Interface/ISystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals/Interface.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals/Interface/ISignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals/Interface/ISignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals/SignalServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Signals/SignalServices.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Systems/SystemServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/ServiceLocator/Systems/SystemServices.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Settings/FrameworkSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Framework/Scripts/Settings/FrameworkSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Data/BattleMenu Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Data/BattleMenu Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Data/BattlePopup Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Data/BattlePopup Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/BattleCharacter Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/BattleCharacter Prefabs/BattleCharacter - Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/BattleCharacter Prefabs/BattleCharacter - Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/BattleCharacter Prefabs/BattleCharacter - Hero.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/BattleCharacter Prefabs/BattleCharacter - Hero.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/Menu - Player Fail Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/Menu - Player Fail Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/Menu - Player Win Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/Menu - Player Win Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/UI - Battle Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Prefabs/UI Prefabs/UI - Battle Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character/Enemy Character.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character/Enemy Character.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character/View/CharacterView Model Enemy.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Resources/Character/View/CharacterView Model Enemy.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scenes/Battle Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scenes/Battle Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Attributes/TestMethodButtonAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Attributes/TestMethodButtonAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Editor/BattleCharacterControllerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Editor/BattleCharacterControllerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/EnemyBattleCharacterController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/EnemyBattleCharacterController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Facade/BattleCharacterFacade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Facade/BattleCharacterFacade.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Feedback/TextFeedback.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Feedback/TextFeedback.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/HeroBattleCharacterController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/HeroBattleCharacterController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Signals/OnCharacterAttackedSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Signals/OnCharacterAttackedSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/UI/HealthBar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/UI/HealthBar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/CharacterSpawnHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/CharacterSpawnHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/InputHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/InputHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/CommandSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/CommandSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandActionData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandActionData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler/COmmandHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler/CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Type.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Type/CommandActionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Type/CommandActionType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Abstract.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Abstract/PlayerStatusMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Abstract/PlayerStatusMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/BattleMenuManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/BattleMenuManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerFailMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerFailMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerWinMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerWinMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Settings/BattleMenuManagerSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Settings/BattleMenuManagerSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/BattlePopupManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/BattlePopupManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/Settings/BattlePopupManagerSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/Settings/BattlePopupManagerSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Resources/GameSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Resources/GameSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/LevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/LevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Systems/GameSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Systems/GameSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Systems/LevelSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Scripts/Systems/LevelSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Textures/Characters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Common/Textures/Characters.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/Hero Character 9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/Character/View/CharacterView Model 9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Menu/CharacterSelectionMenu Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Menu/CharacterSelectionMenu Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Popup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Popup/HeroSelectionPopup Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Data/UI/Popup/HeroSelectionPopup Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Extra Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Extra Prefabs/FieldView - Attribute.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Extra Prefabs/FieldView - Attribute.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Menu Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Menu Prefabs/Menu - Hero Selection Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Menu Prefabs/Menu - Hero Selection Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Menu Prefabs/ViewItem - Hero.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Menu Prefabs/ViewItem - Hero.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Popup Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Popup Prefabs/Popup - Character Attribute Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Prefabs/UI Prefabs/Popup Prefabs/Popup - Character Attribute Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Scenes/Hero Selection Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Scenes/Hero Selection Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 1.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 10.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 2.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 3.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 4.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 5.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 6.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 7.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 8.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model 9.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model Enemy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/CharacterView Model Enemy.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/GameSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/GameSettings.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 1.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 10.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 2.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 3.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 4.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 5.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 6.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 7.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 8.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/Hero Character 9.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/PopupManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Settings/PopupManagerSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Settings/PopupManagerSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Signals/OnPopupClosedSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Signals/OnPopupClosedSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG-Battle-Clone-v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG-Battle-Clone-v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Framework.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Build.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Build.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/SaveSystem.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/SaveSystem.Editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/SaveSystem.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/SaveSystem.Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditorUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditorUtility.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 1.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData 2.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Resources/TestData.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Abstract.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract/SavableScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Abstract/SavableScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract/SavableScriptableObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Abstract/SavableScriptableObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Interface.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Interface.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Interface/ISavable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Interface/ISavable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/Interface/ISavable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Interface/ISavable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.Scripts.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveSystem.Scripts.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.Scripts.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveSystem.Scripts.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData 2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Data/TestData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Data/TestData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Prefabs/Popup - SaveSystem Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/Popup - SaveSystem Variant.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Prefabs/Popup - SaveSystem Variant.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/View - TestData.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Prefabs/View - TestData.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Prefabs/View - TestData.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Prefabs/View - TestData.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/SaveSystem.Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/SaveSystem.Tests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/SaveSystem.Tests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/SaveSystem.Tests.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scenes/SaveSystemTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scenes/SaveSystemTestScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scenes/SaveSystemTestScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/SaveSystemPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/SaveSystemPopup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestDataView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestDataView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestDataView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestDataView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/UI - Template.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/UI - Template.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Abstract/MenuBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Abstract/MenuBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Common/Scenes/Main Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/GameScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Common/Scenes/Main Scene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 1.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData 2.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Resources/TestData.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Abstract/SavableScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Abstract/SavableScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Interface/ISavable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/Interface/ISavable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestDataView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestDataView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Prefabs/Template Prefabs/Popup - Template.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.Scripts.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.Scripts.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Test/Scenes/UISystemTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scenes/UISystemTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuA.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI System/Test/UISystem.Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI System/Test/UISystem.Tests.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,54 +345,83 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestDataView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/TestRunner/Callbacks/PlayerQuitHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/88/a70b25c3/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Abstract/MenuBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E09FC44B-2B46-4346-872A-D04477F51AB1/40/4ecce035/HostView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header/HeaderView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Feedback/TextFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI System/Test/Scripts/Settings/TestMenuManagerSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Editor/Build/SaveSystemPreProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7864A0E-AEB2-4B2A-999F-B177623D54B4/db/c96f1b24/Resources.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Abstract/MenuBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E09FC44B-2B46-4346-872A-D04477F51AB1/bf/2150fe72/EditorCompilationInterface.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header/HeaderView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7864A0E-AEB2-4B2A-999F-B177623D54B4/51/1ae54772/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/SaveSystemPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Popup/PopupManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Facade/BattleCharacterFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Save Utility/Editor/Scripts/SaveSystemEditorUtility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Framework/Scripts/Interface/IInitializable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Save System/Test/TestData.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Header/HeaderView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestDataView.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/Popup/Abstract/PopupBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Test/Scripts/SaveSystemPopup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Resources/TestData 1.json" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Resources/TestData 2.json" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Scripts/Interface/ISavable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Scripts/Abstract/SavableScriptableObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Test/Scripts/TestData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Resources/TestData.json" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/Abstract Editor/SavableScriptableObjectEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Editor/Scripts/SaveSystemEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Editor/Build/SaveSystemPreProcess.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Test/UISystem.Tests.asmdef" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Framework.Scripts.asmdef" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/FrameworkHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Scripts/SaveSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Save System/Scripts/SaveUtility.cs" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Handler/FrameworkHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Interface/IInitializable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/System.cs" />
-      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Abstract/InitializableSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/UISystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuA.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Settings/MenuManagerSettings.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Settings/TestMenuManagerSettings.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/MenuManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/UI System/Scripts/Menu/Abstract/MenuBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/CharacterSpawners.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/BattleCharacter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/Character/Model/Signals/OnExperienceIncreasedSignal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/BattleCharacterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Data/CommandActionData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler/COmmandHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Type/CommandActionType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Attributes/TestMethodButtonAttribute.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Editor/BattleCharacterControllerEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/UI/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Feedback/TextFeedback.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/Character/Model/HeroCharacterModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/Character/Model/EnemyCharacterModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Framework/ServiceLocator/Systems/SystemServices.cs" />
+      <option value="$PROJECT_DIR$/Assets/Framework/Abstract/MonoSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/LevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Signals/OnCharacterAttackedSignal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/Handler/CommandHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/HeroBattleCharacterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Systems/Command System/CommandSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/InputHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Abstract/BattleCharacterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/BattlePopupManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Popup/Settings/HeroSelectionPopupManagerSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Popup/Settings/BattlePopupManagerSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Abstract/PlayerStatusMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerFailMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/PlayerWinMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Menu/Settings/HeroSelectionMenuManagerSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/Settings/BattleMenuManagerSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Common/Scripts/Managers/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/EnemyBattleCharacterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/BattleCharacter/Facade/BattleCharacterFacade.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Popup/CharacterAttributePopup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Menu/View/HeroViewItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Framework/Settings/FrameworkSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Framework/Scripts/Settings/FrameworkSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Framework/Editor/FrameworkEditorMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Menu/HeroSelectionMenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Menu/HeroSelectionMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Handlers/CharacterSpawnHandler.cs" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/Assets/Save Utility/Scripts/SaveUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Save Utility/Test/Scripts/TestData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/Character/Model/Abstract/CharacterModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Model/CharacterViewModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Common/Scripts/Settings/GameSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Battle/Scripts/UI/Menu/BattleMenuManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sS1qt6AkVXFdqJxZVCz3CZYHjZ" />
@@ -186,6 +444,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -199,10 +458,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3604">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4612">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3604" />
+      <option name="pid" value="4612" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -218,7 +477,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620851374305</updated>
-      <workItem from="1620851382007" duration="28969000" />
+      <workItem from="1620851382007" duration="102113000" />
+      <workItem from="1621814467245" duration="56484000" />
     </task>
     <servers />
   </component>
@@ -227,6 +487,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -237,6 +507,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -246,17 +517,108 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/UI System/Test/Scripts/Menus/TestMenuManager.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\UI System\Test\Scripts\Menus\TestMenuManager.cs" initialLine="21" containingFunctionPresentation="method 'Update'">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>278</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="222" containingFunctionPresentation="method 'ExecuteOnPlayerWonState'">
             <startOffsets>
-              <option value="504" />
+              <option value="10125" />
             </startOffsets>
             <endOffsets>
-              <option value="555" />
+              <option value="10138" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>281</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="226" containingFunctionPresentation="method 'ExecuteOnPlayerWonState'">
+            <startOffsets>
+              <option value="10229" />
+            </startOffsets>
+            <endOffsets>
+              <option value="10230" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>290</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="236" containingFunctionPresentation="method 'OnPlayerWonEnded'">
+            <startOffsets>
+              <option value="10421" />
+            </startOffsets>
+            <endOffsets>
+              <option value="10512" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>251</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="202" containingFunctionPresentation="method 'OnEnemyTurnEnded'">
+            <startOffsets>
+              <option value="9188" />
+            </startOffsets>
+            <endOffsets>
+              <option value="9210" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>283</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="228" containingFunctionPresentation="method 'ExecuteOnPlayerWonState'">
+            <startOffsets>
+              <option value="10256" />
+            </startOffsets>
+            <endOffsets>
+              <option value="10275" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Battle/Scripts/Managers/BattleManager.cs</url>
+          <line>214</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Battle\Scripts\Managers\BattleManager.cs" initialLine="165" containingFunctionPresentation="method 'OnPlayerTurnEnded'">
+            <startOffsets>
+              <option value="7721" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7742" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Framework/Editor/FrameworkEditorMenu.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Framework\Editor\FrameworkEditorMenu.cs" initialLine="17" containingFunctionPresentation="method 'LoadInitialScenes'">
+            <startOffsets>
+              <option value="489" />
+            </startOffsets>
+            <endOffsets>
+              <option value="568" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Hero Selection/Scripts/UI/Menu/HeroSelectionMenuManager.cs</url>
+          <line>74</line>
+          <properties documentPath="C:\Users\p_uns\Documents\Projects\RPG-Battle-Clone-v2\Assets\Game\Hero Selection\Scripts\UI\Menu\HeroSelectionMenuManager.cs" initialLine="74" containingFunctionPresentation="method 'OnHeroViewSelectedHandler'">
+            <startOffsets>
+              <option value="2480" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2496" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-﻿namespace Save_System.Scripts.Interface
+﻿namespace Save_Utility.Scripts.Interface
 {
     public interface ISavable
     {

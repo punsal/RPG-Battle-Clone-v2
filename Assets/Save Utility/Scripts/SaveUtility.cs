@@ -1,14 +1,14 @@
 using System.IO;
-using Save_System.Scripts.Abstract;
+using Save_Utility.Scripts.Abstract;
 using UnityEditor;
 using UnityEngine;
 
-namespace Save_System.Scripts
+namespace Save_Utility.Scripts
 {
     public static class SaveUtility
     {
         private const string SavableScriptableObjectKey = "SaveSystem/SavableScriptableObjects/";
-        private static readonly string ResourcesPath = Application.dataPath + "/Save System/Resources";
+        private static readonly string ResourcesPath = Application.dataPath + "/Save Utility/Resources";
         
         public static void Save(SavableScriptableObject scriptableObject)
         {
@@ -18,39 +18,51 @@ namespace Save_System.Scripts
             
             // Save data to Resources if it's in Edit Mode.
 #if UNITY_EDITOR
-            var stream = new StreamWriter(ResourcesPath + $"/{scriptableObject.name}.json", false);
-            stream.Write(data);
-            stream.Close();
-            
-            AssetDatabase.ImportAsset("Assets/Save System/Resources" + $"/{scriptableObject.name}");
-            AssetDatabase.Refresh();
-            
-            Debug.Log($"SaveSystem::Debug::Show saved data.\n{data}");
+            if (!Application.isPlaying)
+            {
+                var stream = new StreamWriter(ResourcesPath + $"/{scriptableObject.name}.json", false); 
+                stream.Write(data); 
+                stream.Close(); 
+                
+                AssetDatabase.Refresh();
+            }
+#endif
+#if !UNITY_EDITOR
+            //Debug.Log($"SaveUtility::Debug::Show saved data.\n{data}");
 #endif
         }
 
-        public static bool Load<T>(ScriptableObject scriptableObject, out object result) where T : ScriptableObject
+        public static bool Load(SavableScriptableObject scriptableObject, out object result)
         {
             // if data exists in PlayerPrefs
             var existingData = PlayerPrefs.GetString(SavableScriptableObjectKey + scriptableObject.name, string.Empty);
 
             if (string.IsNullOrEmpty(existingData))
             {
-                Debug.Log($"SaveSystem::Debug::Try to load \"{scriptableObject.name}\" from Resources.");
+#if UNITY_EDITOR
+                Debug.Log($"SaveUtility::Debug::Try to load \"{scriptableObject.name}\" from Resources.");
                 var savedData = Resources.Load<TextAsset>($"{scriptableObject.name}");
                 if (savedData == null)
                 {
-                    Debug.LogError($"SaveSystem::Debug::Failed to load \"{scriptableObject.name}\" from Resources.");
+                    Debug.LogError($"SaveUtility::Debug::Failed to load \"{scriptableObject.name}\" from Resources.");
                     result = null;
                     return false;
                 }
                 
                 PlayerPrefs.SetString(SavableScriptableObjectKey + scriptableObject.name, savedData.text);
                 existingData = savedData.text;
+#else
+                Debug.Log($"SaveUtility::Debug::Trid to load \"{scriptableObject.name}\" from PlayerPrefs but it's empty.");
+                result = null;
+                return false;
+#endif
             }
 
-            result = ScriptableObject.CreateInstance<T>();
+            result = ScriptableObject.CreateInstance(scriptableObject.GetType());
             JsonUtility.FromJsonOverwrite(existingData, result);
+#if !UNITY_EDITOR
+            Debug.Log($"SaveUtility::Debug::Show loaded data.\n{existingData}");
+#endif
             return true;
         }
     }

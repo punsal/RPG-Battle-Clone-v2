@@ -1,7 +1,7 @@
-﻿using Save_System.Scripts.Interface;
+﻿using Save_Utility.Scripts.Interface;
 using UnityEngine;
 
-namespace Save_System.Scripts.Abstract
+namespace Save_Utility.Scripts.Abstract
 {
     public abstract class SavableScriptableObject : ScriptableObject, ISavable
     {

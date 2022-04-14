@@ -1,0 +1,16 @@
+{
+    "defaultLevel": {
+        "experience": 0,
+        "level": 0
+    },
+    "defaultHealth": 117.16316223144531,
+    "defaultAttackPower": 14.286346435546875,
+    "characterName": "Hero Character 9",
+    "startingHealth": 0.0,
+    "currentHealth": 117.16316223144531,
+    "currentAttackPower": 14.286346435546875,
+    "currentLevel": {
+        "experience": 0,
+        "level": 0
+    }
+}

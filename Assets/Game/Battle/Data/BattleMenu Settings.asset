@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f73dcd976bf4e05b6e1bc0e4f5335fa, type: 3}
+  m_Name: BattleMenu Settings
+  m_EditorClassIdentifier: 
+  menus:
+  - {fileID: 316406725, guid: aeddb64d15bdec5469aa434b58172f5f, type: 3}
+  - {fileID: 1183374428, guid: ecfd13430b4ef524d8a1d7025a29ac36, type: 3}

@@ -3,7 +3,7 @@ using TMPro;
 using UI_System.Scripts.Popup.Header;
 using UnityEngine;
 
-namespace Save_System.Test.Scripts
+namespace Save_Utility.Test.Scripts
 {
     public class TestDataView : MonoBehaviour
     {

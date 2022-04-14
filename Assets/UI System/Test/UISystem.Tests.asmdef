@@ -2,7 +2,8 @@
     "name": "UISystem_Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:70830fe30aacfbe419f089f0b3293d6b"
+        "GUID:70830fe30aacfbe419f089f0b3293d6b",
+        "GUID:e6e667edc58b84449b8e818ab0d62673"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

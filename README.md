@@ -1,5 +1,9 @@
 # RPG-Battle-Clone-v2
-Create a battle mechanic for a RPG game
+`This is a dev-test for a company!`
+
+Create a 2D battle mechanic for a RPG game instance.
+## Build
+You can [download apk](https://drive.google.com/file/d/1MfWmSck9BitVHXQCOpmlp9djAPqyAuUm/view?usp=sharing).
 ## Project
 - Unity 2020.3.6.1
 - Android Platform
